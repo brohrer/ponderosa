@@ -18,6 +18,13 @@ def grid_expand(conditions):
     return expanded
 
 
+def get_random_condition(conditions):
+    rand_condition = {}
+    for key, value in conditions.items():
+        rand_condition[key] = np.random.choice(conditions[key])
+    return rand_condition
+
+
 def results_dict_list_to_csv(results_dict, csv_filename):
     """
     Lifted from Matthew Flaschen on StackOverflow
@@ -53,8 +60,8 @@ def progress_report(results, filename):
 
     fig = plt.Figure()
     ax = fig.gca()
-    ax.plot(best_so_far_errors)
-    ax.set_xlabel("Hyperparameter combinations tested")
+    ax.plot(np.arange(len(best_so_far_errors)) + 1, best_so_far_errors)
+    ax.set_xlabel("Parameter combinations tested")
     ax.set_ylabel("Best error so far")
     param_msg = ""
     for key, value in best_so_far_params.items():

@@ -6,7 +6,7 @@ with open("README.md", "r") as fh:
 st.setup(
     name='ponderosa',
     version='1',
-    description='A hyperparameter optimizer',
+    description='A discrete optimizer, suited for neural network hyperparameters',
     url='http://github.com/brohrer/ponderosa',
     download_url='https://github.com/brohrer/ponderosa/tags/',
     author='Brandon Rohrer',
