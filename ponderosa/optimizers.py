@@ -41,7 +41,7 @@ class HPOptimizer(object):
                 + "    You can check on the best-so-far solution at any time\n"
                 + "    in " + self.report_plot_filename + "\n"
                 + "    The full results log is maintained\n"
-                + "    in" + self.report_filename + "\n\n"
+                + "    in " + self.report_filename + "\n\n"
             )
 
         condition_history = []

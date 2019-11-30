@@ -4,7 +4,6 @@ import matplotlib.pyplot as plt
 from mpl_toolkits.mplot3d import Axes3D
 import ponderosa.toolbox as ptb
 from ponderosa.optimizers import EvoPowell
-
 plt.switch_backend("agg")
 
 
