@@ -19,7 +19,13 @@ you've seen something like it before.)
 
 ## Installation
 
-If you'd like to use Ponderosa or extend it, you'll want
+If you want to use Ponderosa as is install you can install it directly.
+
+```bash
+python3 -m pip install git+https://github.com/brohrer/ponderosa.git --user
+```
+
+If you'd like to experiment with Ponderosa or extend it, you'll want
 to clone the repository to your local machine and install it from there.
 
 ```bash
