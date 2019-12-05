@@ -22,7 +22,7 @@ you've seen something like it before.)
 If you want to use Ponderosa as is install you can install it directly.
 
 ```bash
-python3 -m pip install git+https://github.com/brohrer/ponderosa.git --user
+python3 -m pip install git+https://github.com/brohrer/ponderosa.git --user --no-cache
 ```
 
 If you'd like to experiment with Ponderosa or extend it, you'll want
