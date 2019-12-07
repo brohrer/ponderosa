@@ -1,3 +1,25 @@
+# WEVE MOVED
+
+### This repository is now being hosted on GitLab's servers.
+Check it out at [https://gitlab.com/brohrer/ponderosa](https://gitlab.com/brohrer/ponderosa).
+Install from there. Update from there.
+
+This repo is being deprecated and will no longer be updated.
+
+BTW GitLab is pretty intuitive if you're already familiar with GitHub. [Check it out.](https://gitlab.com/)
+
+--
+
+--
+
+--
+
+--
+
+--
+
+--
+
 # Pondersa, a discrete optimizer
 
 Ponderosa is a companion for machine learning algorithms with higher
