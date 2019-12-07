@@ -1,4 +1,4 @@
-# WEVE MOVED
+# WE'VE MOVED
 
 ### This repository is now being hosted on GitLab's servers.
 Check it out at [https://gitlab.com/brohrer/ponderosa](https://gitlab.com/brohrer/ponderosa).
