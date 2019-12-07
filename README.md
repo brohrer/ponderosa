@@ -4,7 +4,7 @@
 Check it out at [https://gitlab.com/brohrer/ponderosa](https://gitlab.com/brohrer/ponderosa).
 Install from there. Update from there.
 
-To make the switch on your local machinecommand line run
+To make the switch on your local machine command line run
 
 git remote set-url origin git@gitlab.com:brohrer/ponderosa.git
 
