@@ -4,9 +4,17 @@
 Check it out at [https://gitlab.com/brohrer/ponderosa](https://gitlab.com/brohrer/ponderosa).
 Install from there. Update from there.
 
-This repo is being deprecated and will no longer be updated.
+To make the switch on your local machinecommand line run
 
-BTW GitLab is pretty intuitive if you're already familiar with GitHub. [Check it out.](https://gitlab.com/)
+git remote set-url origin git@gitlab.com:brohrer/ponderosa.git
+
+or
+
+git remote set-url origin https://gitlab.com/brohrer/ponderosa.git
+
+depending on which protocol you're using.
+
+This repo is being deprecated and will no longer be updated. BTW GitLab is pretty intuitive if you're already familiar with GitHub. [Check it out.](https://gitlab.com/)
 
 --
 
